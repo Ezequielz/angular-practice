@@ -13,7 +13,7 @@ const routes: Routes = [
       { path: 'editar', component: EditarComponent },
       { path: 'listado', component: ListadoComponent },
       { path: 'producto', component: ProductoComponent },
-      { path: '**', redirectTo: 'listado' },
+      { path: '**', redirectTo: 'listado'},
     ]
   }
 ];

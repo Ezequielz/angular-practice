@@ -7,13 +7,13 @@ import { UsuarioComponent } from './pages/usuario/usuario.component';
 
 const routes: Routes = [
   {
-    path: '',
-    children: [
+    path:'',
+    children:[
       { path: 'nuevo', component: NuevoComponent },
       { path: 'editar', component: EditarComponent },
       { path: 'listado', component: ListadoComponent },
       { path: 'usuario', component: UsuarioComponent },
-      { path: '**', redirectTo: 'listado' }
+      { path: '**', redirectTo: 'listado'},
     ]
   }
 ];
